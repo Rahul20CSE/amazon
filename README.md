@@ -30,3 +30,16 @@ This is a Selenium-based automation framework created to test the **Search** and
    url=https://www.amazon.in/
    Valid=Laptop
    InvalidProd=invalidproduct123
+
+
+
+amazonTestCase/
+├── src/
+│   ├── main/java/com/crm/
+│   └── test/java/TestCase/
+├── testng.xml
+├── Configure.properties
+└── README.md
+   
+
+   
