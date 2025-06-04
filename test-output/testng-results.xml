@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Entered into the application]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Search]]>
+    </line>
+    <line>
+      <![CDATA[No such product]]>
+    </line>
+    <line>
+      <![CDATA[Entered into the application]]>
+    </line>
+    <line>
+      <![CDATA[projuct secarh]]>
+    </line>
+    <line>
+      <![CDATA[List of laptop]]>
+    </line>
+    <line>
+      <![CDATA[Entered into the application]]>
+    </line>
+    <line>
+      <![CDATA[find product and Add it to cart]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Entered into the application]]>
+    </line>
+    <line>
+      <![CDATA[find product and Add it to cart]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Entered into the application]]>
+    </line>
+    <line>
+      <![CDATA[Search and add product to cart]]>
+    </line>
+    <line>
+      <![CDATA[Product removed and cart is now empty]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-06-04T15:50:26 IST" name="Suite" finished-at="2025-06-04T15:54:44 IST" duration-ms="257970">
+    <groups>
+    </groups>
+    <test started-at="2025-06-04T15:50:26 IST" name="InvalidSearchTest" finished-at="2025-06-04T15:51:02 IST" duration-ms="35868">
+      <class name="TestCase.RandomSerch">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:TestCase.RandomSerch@3c41ed1d]" started-at="2025-06-04T15:50:26 IST" name="preCondition" finished-at="2025-06-04T15:50:55 IST" duration-ms="29554" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="InvalidSearch(java.lang.String)[pri:0, instance:TestCase.RandomSerch@3c41ed1d]" started-at="2025-06-04T15:50:56 IST" name="InvalidSearch" finished-at="2025-06-04T15:51:01 IST" duration-ms="5038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ld345tsxslfer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid Search]]>
+            </line>
+            <line>
+              <![CDATA[No such product]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidSearch -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCase.RandomSerch@3c41ed1d]" started-at="2025-06-04T15:51:01 IST" name="postCondition" finished-at="2025-06-04T15:51:02 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCase.RandomSerch -->
+    </test> <!-- InvalidSearchTest -->
+    <test started-at="2025-06-04T15:51:02 IST" name="ValidSearchTest" finished-at="2025-06-04T15:51:28 IST" duration-ms="25931">
+      <class name="TestCase.SearchProduct">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:TestCase.SearchProduct@55fe41ea]" started-at="2025-06-04T15:51:02 IST" name="preCondition" finished-at="2025-06-04T15:51:20 IST" duration-ms="18429" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="ValidSearch(java.lang.String)[pri:0, instance:TestCase.SearchProduct@55fe41ea]" started-at="2025-06-04T15:51:20 IST" name="ValidSearch" finished-at="2025-06-04T15:51:28 IST" duration-ms="7303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[projuct secarh]]>
+            </line>
+            <line>
+              <![CDATA[List of laptop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidSearch -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCase.SearchProduct@55fe41ea]" started-at="2025-06-04T15:51:28 IST" name="postCondition" finished-at="2025-06-04T15:51:28 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCase.SearchProduct -->
+    </test> <!-- ValidSearchTest -->
+    <test started-at="2025-06-04T15:51:28 IST" name="AddToCartTest" finished-at="2025-06-04T15:52:17 IST" duration-ms="48759">
+      <class name="TestCase.addPtoCart">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:TestCase.addPtoCart@752325ad]" started-at="2025-06-04T15:51:28 IST" name="preCondition" finished-at="2025-06-04T15:51:41 IST" duration-ms="12676" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="addToCartStep()[pri:0, instance:TestCase.addPtoCart@752325ad]" started-at="2025-06-04T15:51:41 IST" name="addToCartStep" finished-at="2025-06-04T15:52:16 IST" duration-ms="35740" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[find product and Add it to cart]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartStep -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCase.addPtoCart@752325ad]" started-at="2025-06-04T15:52:16 IST" name="postCondition" finished-at="2025-06-04T15:52:17 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCase.addPtoCart -->
+    </test> <!-- AddToCartTest -->
+    <test started-at="2025-06-04T15:52:17 IST" name="UpdateCartTest" finished-at="2025-06-04T15:53:22 IST" duration-ms="65655">
+      <class name="TestCase.updateCart">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:TestCase.updateCart@1ff4931d]" started-at="2025-06-04T15:52:17 IST" name="preCondition" finished-at="2025-06-04T15:52:32 IST" duration-ms="14907" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="updateToCart()[pri:0, instance:TestCase.updateCart@1ff4931d]" started-at="2025-06-04T15:52:32 IST" name="updateToCart" finished-at="2025-06-04T15:53:22 IST" duration-ms="50478" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[find product and Add it to cart]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateToCart -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCase.updateCart@1ff4931d]" started-at="2025-06-04T15:53:22 IST" name="postCondition" finished-at="2025-06-04T15:53:22 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCase.updateCart -->
+    </test> <!-- UpdateCartTest -->
+    <test started-at="2025-06-04T15:53:23 IST" name="EmptyCartTest" finished-at="2025-06-04T15:54:44 IST" duration-ms="81090">
+      <class name="TestCase.emptyCart">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:TestCase.emptyCart@8297b3a]" started-at="2025-06-04T15:53:23 IST" name="preCondition" finished-at="2025-06-04T15:53:37 IST" duration-ms="14608" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="removeCartTest()[pri:0, instance:TestCase.emptyCart@8297b3a]" started-at="2025-06-04T15:53:37 IST" name="removeCartTest" finished-at="2025-06-04T15:54:43 IST" duration-ms="66080" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search and add product to cart]]>
+            </line>
+            <line>
+              <![CDATA[Product removed and cart is now empty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeCartTest -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCase.emptyCart@8297b3a]" started-at="2025-06-04T15:54:43 IST" name="postCondition" finished-at="2025-06-04T15:54:44 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCase.emptyCart -->
+    </test> <!-- EmptyCartTest -->
+  </suite> <!-- Suite -->
+</testng-results>
