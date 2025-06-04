@@ -40,6 +40,29 @@ amazonTestCase/
 ├── testng.xml
 ├── Configure.properties
 └── README.md
+
+
+
+
+---
+
+#### 🔹 **Step 2: Save the file**
+- Save the file as:  
+  📄 `README.md`  
+  inside:  
+  `C:\Users\Asus\Desktop\code rahul\Selenium\amazon`
+
+---
+
+#### 🔹 **Step 3: Run Git Commands Again in Git Bash**
+
+```bash
+cd "C:/Users/Asus/Desktop/code rahul/Selenium/amazon"
+git add README.md
+git commit -m "Added README.md"
+git push origin main
+
+
    
 
    
